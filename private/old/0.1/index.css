@@ -1,0 +1,54 @@
+main {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    bottom: 0px;
+    overflow: scroll;
+    padding-top: 90px;
+}
+
+
+
+#front{
+    margin: 0 auto;
+    position: relative;
+    font-size: 3.5em;
+
+    width: 100vw;
+    height: 100vw;
+
+    background-image: url("/img/Back_cleanup.png");
+    background-position: center;
+    background-size: cover;
+}
+#front > #title{
+    top: 20vw;
+    color: #ffffff;
+    left: 0;
+    position: fixed;
+    width: 100vw;
+    text-align: center;
+}
+#front > img {
+    position: relative;
+    width: 100vw;
+}
+
+
+#back{
+    width: 100vw;
+}
+#back > img{
+    position: relative;
+    width: 100%;
+    bottom: 0px;
+}
+#sec1{
+    filter: hue-rotate(90deg);
+}
+#sec2 {
+    filter: hue-rotate(180deg);
+}
+#sec3 {
+    filter: hue-rotate(270deg);
+}

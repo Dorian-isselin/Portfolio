@@ -1,0 +1,295 @@
+main {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    bottom: 0px;
+    overflow: scroll;
+    padding-top: 90px;
+}
+
+/*
+///////////////////////////////////////////////////////////////////////////////////////
+*/
+
+#TopTitle{
+    position: relative;
+
+    width: 110vw;
+    height: 66.6vw;
+
+    background-color: #EFC5B9;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#TopTitle > #title{
+    font-size: 3.5em;
+    top: 20vw;
+    color: #ffffff;
+    left: 0;
+    position: fixed;
+    width: 100vw;
+    text-align: center;
+}
+#TopTitle > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+}
+
+/*
+///////////////////////////////////////////////////////////////////////////////////////
+*/
+
+section{
+    position: relative;
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section > img{
+    position: relative;
+    width: 100%;
+}
+
+/*
+///////////////////////////////////////////////////////////////////////////////////////
+*/
+
+#sec1{
+    height: fit-content;
+    position: relative;
+    background-color: #27192f;
+    color: #ffffff;
+    padding: 10vw 0;
+}
+#sec1 > div {
+    margin: 7vw 0;
+}
+#sec1 > p {
+    width: 50%;
+    font-size: 3em;
+    text-align: center;
+    line-height: 1.7em;
+}
+
+.lineCut{
+    width: 0%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+#sec1 .lineCut > img{
+    width: 40vw;
+}
+
+/*
+///////////////////////////////////////////////////////////////////////////////////////
+*/
+
+#sec2 {
+    height: fit-content;
+    position: relative;
+    background-color: #B683AF;
+    color: #ffffff;
+    justify-content: space-between;
+}
+#sec2 > #r_bg {
+    position: relative;
+    width: 100vw;
+    height: 18.4vw;
+}
+#sec2 > #r_bg > img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+#sec2 > h1 {
+    font-family: Geraldton_Thin;
+    font-weight: 100;
+    font-size: 6em;
+    margin-bottom: 2em;
+}
+#sec2 > h1 > img{
+    height: 0.8em;
+}
+
+#sec2 > h2 {
+    font-family: Geraldton_Thin;
+    font-weight: 100;
+    font-size: 6em;
+    margin: 1em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sec2 > h2 > span 
+{
+    text-align: center;
+    width: 12em;
+}
+#sec2 > h2 img{
+    height: 0.8em;
+    margin: 0 1em;
+}
+#sec2 .lineExp {
+    width: 60vw;
+    font-size: 3em;
+}
+#sec2 .lineExp h5 {
+    font-size: 1.5em;
+}
+#sec2 .lineExp .emphasis{
+    font-weight: bold;
+    color: #27192F;
+}
+#sec2 .lineCut.LCleft{
+    justify-content: end;
+}
+#sec2 .lineCut.LCright{
+    justify-content: start;
+}
+
+/*
+///////////////////////////////////////////////////////////////////////////////////////
+*/
+
+#sec3 {
+    height: fit-content;
+    position: relative;
+    background-color: #FE9BA4;
+    color: #ffffff;
+    justify-content: space-between;
+}
+#sec3 > #r_bg {
+    position: relative;
+    width: 100vw;
+    height: 18.4vw;
+}
+#sec3 > #r_bg > img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+#sec3 > h1 {
+    font-family: Geraldton_Thin;
+    font-weight: 100;
+    font-size: 6em;
+    margin-bottom: 2em;
+}
+#sec3 > h1 > img{
+    height: 0.8em;
+}
+
+#sec3 > h2 {
+    font-family: Geraldton_Thin;
+    font-weight: 100;
+    font-size: 6em;
+    margin: 1em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sec3 > h2 > span 
+{
+    text-align: center;
+    width: 10em;
+}
+#sec3 > h2 img{
+    height: 0.8em;
+    margin: 0 1em;
+}
+
+#sec3 .custom_line {
+    font-size: 3em;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#sec3 .boxCut {
+    width: 8em;
+    height: 8em;
+    background-color: #27192f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9999px;
+}
+#sec3 .boxCut img{
+    width: 3em;
+}
+
+#sec3 .lineCut.LCleft{
+    justify-content: end;
+}
+#sec3 .lineCut.LCright{
+    justify-content: start;
+}
+
+/*
+///////////////////////////////////////////////////////////////////////////////////////
+*/
+
+#sec4 {
+    height: fit-content;
+    position: relative;
+    background-color: #EFC5B9;
+    color: #ffffff;
+    justify-content: space-between;
+}
+
+#sec4 > #r_bg {
+    position: relative;
+    width: 100vw;
+    height: 18.4vw;
+}
+
+#sec4 > #r_bg > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#sec4 > h1 {
+    font-family: Geraldton_Thin;
+    font-weight: 100;
+    font-size: 6em;
+    margin-bottom: 2em;
+}
+
+#sec4 > h1 > img {
+    height: 0.8em;
+}
+
+#sec4 .custom_line {
+    font-size: 3em;
+    width: 20em;
+    margin: auto 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 3em;
+    cursor: pointer;
+}
+#sec4 .custom_line:hover{
+    filter: drop-shadow(0 0 10px crimson);
+}
+#sec4 .boxCut {
+    width: 3em;
+    height: 3em;
+    display: block;
+}
+/*
+///////////////////////////////////////////////////////////////////////////////////////
+*/
+
