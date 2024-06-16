@@ -1,0 +1,12 @@
+#Desactivation du listing de dossiers
+Options -Indexes
+
+#Redirection de page
+#Redirect 301 /main.html /test1/index.html
+
+#Redirection du dosier private vers index
+#RedirectMatch 403 /private/.*
+RedirectMatch 301 /private/* /index.php
+
+#Redirection d'erreur
+#ErrorDocument 404 /404.html
