@@ -34,9 +34,8 @@
     define('TXT_EXP_1', 
         "<h5> <span class='emphasis'> Rôle: </span> Intégration et test en vol de modules avioniques dans une RFSoC4x2 </h5> 
         </br>
-        <p> Au LASSENA, j'ai joué un rôle clé dans l'intégration et le développement de divers
-        modules radio avioniques au sein d'un unique système RFSoC. Mon travail comprenait
-        à la fois des aspects électroniques et logiciels: </p>
+        <p> Au LASSENA, j'étais responsable de l'intégration et du développement de différents modules radio avioniques au sein 
+        d'un seul système RFSoC. Mon rôle englobait à la fois les aspects électroniques et logiciels: </p>
         </br>
         <span class='emphasis'>- Gestion Électronique: </span>
         <p> <u> Configuration du FPGA:</u> Conception et implémentation d’une image FPGA intégrant
